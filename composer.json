@@ -1,0 +1,22 @@
+{
+  "name": "reza-pourmokhtar/composer-test",
+  "description": "This is my first composer package",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Reza Pourmokhtar",
+      "email": "Rezapourmokhtar@gmail.come",
+      "homepage": "https://www.daftare-fanni.ir",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "monolog/monolog": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
